@@ -1,10 +1,17 @@
-﻿namespace atividade_6
+﻿class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        Console.Write("Digite a nota do aluno: ");
+        double nota = Convert.ToDouble(Console.ReadLine());
+
+        if (nota >= 7)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Aluno aprovado!");
+        }
+        else
+        {
+            Console.WriteLine("Aluno reprovado.");
         }
     }
 }

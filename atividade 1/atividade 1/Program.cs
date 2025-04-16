@@ -2,16 +2,16 @@
 {
     static void Main()
     {
-        Console.Write("Digite um número: ");
+        Console.Write("coloca um numero: ");
         int numero = int.Parse(Console.ReadLine());
 
         if (numero > 0)
         {
-            Console.WriteLine("O número é positivo.");
+            Console.WriteLine("é positivo.");
         }
         else
         {
-            Console.WriteLine("O número não é positivo.");
+            Console.WriteLine("não é positivo.");
         }
     }
 }

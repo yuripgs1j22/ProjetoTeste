@@ -2,16 +2,16 @@
 {
     static void Main()
     {
-        Console.Write("Digite um número: ");
+        Console.Write("coloca um numeri: ");
         int numero = int.Parse(Console.ReadLine());
 
         if (numero % 2 == 0)
         {
-            Console.WriteLine("O número é par.");
+            Console.WriteLine("par.");
         }
         else
         {
-            Console.WriteLine("O número não é par.");
+            Console.WriteLine("não é par.");
         }
     }
 }

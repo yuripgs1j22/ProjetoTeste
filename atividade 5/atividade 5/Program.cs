@@ -7,11 +7,11 @@
 
         if (numero % 3 == 0)
         {
-            Console.WriteLine("O número é múltiplo de 3.");
+            Console.WriteLine("é múltiplo de 3.");
         }
         else
         {
-            Console.WriteLine("O número não é múltiplo de 3.");
+            Console.WriteLine("não é múltiplo de 3.");
         }
     }
 }

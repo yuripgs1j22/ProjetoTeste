@@ -2,16 +2,16 @@
 {
     static void Main()
     {
-        Console.Write("Digite a nota do aluno: ");
+        Console.Write("nota do aluno: ");
         double nota = Convert.ToDouble(Console.ReadLine());
 
         if (nota >= 7)
         {
-            Console.WriteLine("Aluno aprovado!");
+            Console.WriteLine("aprovado!");
         }
         else
         {
-            Console.WriteLine("Aluno reprovado.");
+            Console.WriteLine("reprovado.");
         }
     }
 }

@@ -2,19 +2,19 @@
 {
     static void Main()
     {
-        Console.Write("Digite o primeiro número: ");
+        Console.Write("coloca primeiro número: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Digite o segundo número: ");
+        Console.Write("coloca segundo número: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
         if (num1 == num2)
         {
-            Console.WriteLine("Os números são iguais.");
+            Console.WriteLine("são iguais.");
         }
         else
         {
-            Console.WriteLine("Os números são diferentes.");
+            Console.WriteLine("são diferentes.");
         }
     }
 }

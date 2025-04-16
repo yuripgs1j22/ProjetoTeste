@@ -2,16 +2,16 @@
 {
     static void Main()
     {
-        Console.Write("Digite a idade da pessoa: ");
+        Console.Write("Digite a idade: ");
         int idade = Convert.ToInt32(Console.ReadLine());
 
         if (idade >= 18)
         {
-            Console.WriteLine("A pessoa é maior de idade.");
+            Console.WriteLine("é maior de idade.");
         }
         else
         {
-            Console.WriteLine("A pessoa é menor de idade.");
+            Console.WriteLine(" é menor de idade.");
         }
     }
 }
